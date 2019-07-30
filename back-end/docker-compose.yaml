@@ -1,0 +1,19 @@
+version: '3'
+services:
+  api:
+    build: .
+    image: "davidromero/lab_web"
+    container_name: "backend"
+    command: npm run start
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MONGODB_URL=mongodb://mongo/lab_web
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: "mongo"
+    ports:
+      - "27017:27017"

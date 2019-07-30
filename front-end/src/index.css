@@ -1,0 +1,263 @@
+/* del header */
+ul.header li {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size:30px;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+  font-size:30px;
+}
+ul.header li a {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size:30px;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-136027.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 75% 75%;
+}
+
+
+.center {
+text-align: center;
+}
+a {
+color:black;
+text-decoration: none;
+transition:all 0.5s ease-in;
+}
+
+
+a:hover {
+text-decoration: underline;
+}
+
+
+/* Navigation */
+
+.navbar {
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+background:rgba(100,100,100,0.68);
+text-align:center;
+padding:50px;
+width:75%;
+margin:5px auto;
+align-items: center;
+display:flex;
+justify-content: center;
+}
+
+
+.navbar h1 {
+margin:0;
+font-weight:200;
+font-size:40px;
+letter-spacing: 4px;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+
+/* Post Styles */
+.post-container {
+background:rgba(100,100,100,0.2);
+padding:50px;
+width:50%;
+margin:40px auto;
+box-shadow:0 5px 15px 0 rgba(46, 61, 73, 0.12);
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+
+.post_heading {
+text-align:center;
+font-weight:400;
+font-size:40px;
+color:black;
+}
+
+
+.form {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.form input {
+  background:rgba(100,100,100,0.2);
+height:44px;
+padding-left:15px;
+padding-right:15px;
+border: 1px solid #dbe2e8;
+font-size:25px;
+border-radius:2px;
+color:black;
+box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+outline:none;
+width:80%;
+}
+
+
+.form textarea {
+  background:rgba(100,100,100,0.2);
+width:80%;
+max-width:80%;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+border: 1px solid #dbe2e8;
+font-size:25px;
+border-radius:2px;
+color:black;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+outline:none;
+}
+
+
+/* All Posts */
+
+
+.all_post_heading {
+text-align:center;
+font-weight:400;
+font-size:40px;
+color:black;
+word-wrap: break-word;
+}
+
+
+.post {
+background:rgba(100,100,100,0.2);
+width:60%;
+margin:0 auto;
+padding:30px;
+margin-bottom:20px;
+box-shadow: 10px 10px 12px 0 rgba(46, 60, 73, 0.05);
+}
+
+
+.form button {
+background:black;
+padding:15px 40px;
+text-align: center;
+color:#fff;
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+border-radius:4px;
+border:none;
+font-size:20px;
+}
+
+
+.post_title {
+text-align:center;
+font-weight:400;
+font-size:40px;
+color:white;
+word-wrap: break-word;
+}
+
+
+.post_message {
+font-size:25px;
+font-weight: 200;
+line-height: 2.5rem;
+text-align:center;
+color:white;
+word-wrap: break-word
+}
+
+.post_message2 {
+font-size:25px;
+font-weight: 200;
+line-height: 2.5rem;
+text-align:center;
+color:white;
+word-wrap: break-word
+}
+
+.post_message3 {
+font-size:25px;
+font-weight: 200;
+line-height: 2.5rem;
+text-align:center;
+color:white;
+word-wrap: break-word
+}
+
+.post_message4 {
+font-size:25px;
+font-weight: 200;
+line-height: 2.5rem;
+text-align:center;
+color:white;
+word-wrap: break-word
+}
+
+.control-buttons {
+display:flex;
+}
+
+
+.delete {
+background: black;
+border:none;
+text-align: center;
+font-size:20px;
+padding:10px 25px;
+border-radius:20px;
+cursor:pointer;
+outline: none;
+color:#fff;
+}
+
+
+.edit {
+background:black;
+border:none;
+text-align: center;
+font-size:20px;
+padding:10px 25px;
+border-radius:20px;
+cursor:pointer;
+margin-right:auto;
+outline: none;
+color:#fff;
+}
+
+.infopag {
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-size:30px;
+text-align:center;
+font-weight:400;
+}
+
+.stuff {
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-size:30px;
+text-align:left;
+font-weight:400;
+}
+
+.stuff img {
+  width: 85%;
+  height: 85%;
+  opacity: 0.75;
+}
